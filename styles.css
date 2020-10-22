@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body, html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+  color: #34495e; }
+
+h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.section {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.blue {
+  color: #4aa3df; }
+
+.purple {
+  color: #9b59b6; }
+
+.asphalt {
+  color: #34495e; }
+
+.green {
+  color: #1abc9c; }
+
+.orange {
+  color: #e74c3c; }
+
+.cloud {
+  color: #ecf0f1; }
+
