@@ -68,8 +68,8 @@
                     <tr ng-repeat="row in seats.map[seatQuality].seats" class="row">
                         <h3 ng-if="seatQuality">{{seatQuality}}</h3>
                         <td><span>{{row[0].letter}}</span></td>
-                        <td ng-repeat="seat in row">
-                            <a ng-class="{'selected': seat.check, 'available': (!seat.check && !seat.booked),  'blocked': seat.booked}"
+                        <td ng-repeat="seat in row" ng-class="{'selected': seat.check, 'available': (!seat.check && !seat.booked),  'blocked': seat.booked}">
+                            <a 
                                 ng-click="seats.select({rang:seatQuality, row:row, seat: seat}, selectedCount)">{{seat.val}}</a>
                         </td>
                     </tr>
