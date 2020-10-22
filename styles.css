@@ -19,6 +19,11 @@ ul {
   margin: 0;
   padding: 0; }
 
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .section {
     margin: auto;
     display: flex;
@@ -42,4 +47,8 @@ ul {
 
 .cloud {
   color: #ecf0f1; }
+
+.selected {
+    background-color: #1abc9c;
+}
 
